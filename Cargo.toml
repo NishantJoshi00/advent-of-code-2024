@@ -1,0 +1,11 @@
+[package]
+name = "aoc-runner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wasmtime = "27.0.0"
+
+anyhow = "1.0.93"
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
